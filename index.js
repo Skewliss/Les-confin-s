@@ -69,7 +69,7 @@ client.on("guildMemberAdd", user =>{
   .setAuthor(user.user.username, user.user.displayAvatarURL)
   .setDescription(":grin: Bienvenue " + user + " sur notre serveur **" + user.guild.name + "** !")
   .setFooter("Les confinés | By Skewliss", 'https://i.imgur.com/t6nodSy.png')
-  user.guild.channels.get("783363453297360936").send(joinEmbed)
+  user.guild.channels.get("781862895876440064").send(joinEmbed)
 });
 
 client.on("guildMemberRemove", user =>{
@@ -78,7 +78,7 @@ client.on("guildMemberRemove", user =>{
   .setAuthor(user.user.username, user.user.displayAvatarURL)
   .setDescription(":cry: Sniff... " + user + " a quitté notre serveur **" + user.guild.name + "** !")
   .setFooter("Les confinés | By Skewliss", 'https://i.imgur.com/t6nodSy.png')
-  user.guild.channels.get("783363453297360936").send(leaveEmbed)
+  user.guild.channels.get("781862895876440064").send(leaveEmbed)
 });
 
 client.on("message", message => {
