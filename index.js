@@ -94,7 +94,7 @@ client.on("message", message => {
   if(message.author.bot) return;
 
   if(message.content == prefix + "wipe"){
-    message.reply("nous ne savons toujours pas la date du wipe :worried:");
+    message.reply("Le wipe se déroulera le 18/12 sur un nouveau hébergeur :grin:");
   }
 });
 
